@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/aond/antd-editable-component.git"
   },
-  "keywords": [],
+  "keywords": ["ant-design-pro", "table", "editable", "editable-table", "typescript"],
   "author": "",
   "license": "ISC",
   "bugs": {
