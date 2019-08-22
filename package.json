@@ -1,6 +1,6 @@
 {
   "name": "antd-editable-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/aond/antd-editable-component.git"
   },
-  "keywords": ["ant-design-pro", "table", "editable", "editable-table", "typescript"],
+  "keywords": [
+    "ant-design-pro",
+    "table",
+    "editable",
+    "editable-table",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
