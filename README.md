@@ -180,7 +180,6 @@ class ProductTable extends React.Component<ProductTableProps, ProductTableState>
         cell: EditableCell,
       },
     };
-    debugger;
     const columns = this.columns.map(col => {
       if (!col.editable) {
         return col;
@@ -189,7 +188,8 @@ class ProductTable extends React.Component<ProductTableProps, ProductTableState>
         ...col,
         onCell: (record: ColumnDataType) => ({
           record,
-          inputType: col.dataIndex === 'age' ? 'number' : 'text',
+          fieldType: col.fieldType,
+          selectData: col.selectData,
           dataIndex: col.dataIndex,
           title: col.title,
           editing: this.isEditing(record),
